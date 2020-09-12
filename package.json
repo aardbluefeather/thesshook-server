@@ -1,0 +1,28 @@
+{
+  "name": "thesshook-server",
+  "version": "1.0.0",
+  "description": "The S.S. Hook website backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aardbluefeather/thesshook-server.git"
+  },
+  "keywords": [],
+  "author": "AardBlueFeather",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aardbluefeather/thesshook-server/issues"
+  },
+  "homepage": "https://github.com/aardbluefeather/thesshook-server#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
